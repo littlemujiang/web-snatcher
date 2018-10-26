@@ -31,3 +31,7 @@ class autohome(scrapy.Spider):
         with open(filename, 'wb') as f:  # python文件操作，不多说了；
             f.write(response.body)  # 刚才下载的页面去哪里了？response.body就代表了刚才下载的页面！
         self.log('保存文件: %s' % filename)  # 打个日志
+
+        mingyan_list = response.css('div.quote').extract()
+        for mingyan in mingyan_list:
+            print(mingyan)
