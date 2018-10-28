@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64cbbef6-fcfb-495f-b8c7-cb6941c8a2bf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/autohome/settings-bak.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/autohome/spiders/autohome_spider-learn.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/WebSnatcher.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/WebSnatcher.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autohome/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autohome/html_parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autohome/html_parser_pyquery.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/autohome/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/autohome/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/autohome/spiders/autohome_spider.py" beforeDir="false" afterPath="$PROJECT_DIR$/autohome/spiders/autohome_spider.py" afterDir="false" />
@@ -18,25 +17,27 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/web_snatcher$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1540694865721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/autohome" />
+    <SUITE FILE_PATH="coverage/web_snatcher$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1540695697290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/autohome" />
     <SUITE FILE_PATH="coverage/WebSnatcher$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1540519012815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/autohome" />
+    <SUITE FILE_PATH="coverage/web_snatcher$html_parser_pyquery.coverage" NAME="html_parser_pyquery Coverage Results" MODIFIED="1540704116839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/autohome" />
+    <SUITE FILE_PATH="coverage/web_snatcher$html_parser.coverage" NAME="html_parser Coverage Results" MODIFIED="1540703013955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/autohome" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/autohome/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="75">
+              <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="autohome_spider.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="autohome_spider.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/autohome/spiders/autohome_spider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="70" column="64" selection-start-line="70" selection-start-column="64" selection-end-line="70" selection-end-column="64" />
+            <state relative-caret-position="274">
+              <caret line="69" column="21" selection-start-line="69" selection-start-column="21" selection-end-line="69" selection-end-column="21" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -44,11 +45,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="defer.py" pinned="false" current-in-tab="false">
-        <entry file="file://D:/Program Files/Python37/Lib/site-packages/twisted/internet/defer.py">
+      <file leaf-file-name="html_parser.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/autohome/html_parser.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="587" selection-start-line="587" selection-end-line="587" />
+            <state relative-caret-position="325">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="errorhandler.py" pinned="false" current-in-tab="false">
+        <entry file="file://D:/Program Files/Python37/Lib/site-packages/selenium/webdriver/remote/errorhandler.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="388">
+              <caret line="241" selection-start-line="241" selection-end-line="241" />
             </state>
           </provider>
         </entry>
@@ -67,6 +77,7 @@
       <find>HTTPCACHE_STORAGE</find>
       <find>Minn</find>
       <find>SPIDER_MIDDLEWARES</find>
+      <find>config_data</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -78,9 +89,11 @@
         <option value="$PROJECT_DIR$/stater.py" />
         <option value="$PROJECT_DIR$/main/overall_config.json" />
         <option value="$PROJECT_DIR$/autohome/__init__.py" />
-        <option value="$PROJECT_DIR$/autohome/settings.py" />
         <option value="$PROJECT_DIR$/autohome/spiders/autohome_spider-learn.py" />
+        <option value="$PROJECT_DIR$/autohome/settings.py" />
         <option value="$PROJECT_DIR$/autohome/spiders/autohome_spider.py" />
+        <option value="$PROJECT_DIR$/autohome/html_parser.py" />
+        <option value="$PROJECT_DIR$/autohome/html_parser_pyquery.py" />
       </list>
     </option>
   </component>
@@ -94,10 +107,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="779" />
-    <option name="y" value="-1062" />
-    <option name="width" value="1378" />
-    <option name="height" value="877" />
+    <option name="x" value="792" />
+    <option name="y" value="-1088" />
+    <option name="width" value="689" />
+    <option name="height" value="439" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -120,12 +133,6 @@
               <item name="web-snatcher" type="462c0819:PsiDirectoryNode" />
               <item name="autohome" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="web-snatcher" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web-snatcher" type="462c0819:PsiDirectoryNode" />
-              <item name="autohome" type="462c0819:PsiDirectoryNode" />
-              <item name="spiders" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -139,14 +146,14 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Hello_mujiang\pyCodes\web-snatcher\autohome" />
-      <recent name="D:\Hello_mujiang\pyCodes\web-snatcher\autohome\spiders" />
-      <recent name="$PROJECT_DIR$/main" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/autohome" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/main" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Hello_mujiang\pyCodes\web-snatcher\autohome" />
+      <recent name="D:\Hello_mujiang\pyCodes\web-snatcher\autohome\spiders" />
       <recent name="$PROJECT_DIR$/main" />
     </key>
   </component>
@@ -162,7 +169,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.html_parser_pyquery">
     <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="WebSnatcher" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -182,8 +189,53 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="html_parser" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="WebSnatcher" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/autohome" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/autohome/html_parser.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="html_parser_pyquery" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="WebSnatcher" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/autohome" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/autohome/html_parser_pyquery.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.__init__" />
+      <item itemvalue="Python.html_parser" />
+      <item itemvalue="Python.html_parser_pyquery" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.html_parser_pyquery" />
+        <item itemvalue="Python.html_parser" />
         <item itemvalue="Python.__init__" />
       </list>
     </recent_temporary>
@@ -218,7 +270,7 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3807391" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.20716685" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18443497" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
@@ -226,7 +278,7 @@
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.33034715" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.45352742" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -247,67 +299,74 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/autohome/spiders/autohome_spider.py</url>
-          <line>70</line>
-          <option name="timeStamp" value="22" />
+          <line>71</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/autohome/html_parser.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/autohome/html_parser_pyquery.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="29" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="23" />
+      <option name="time" value="30" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
-        <watch expression="str(car_config_raw, encoding='utf-8')" language="Python" />
+        <watch expression="browser.find_element_by_class_name('hs_kw14_configAI')" language="Python" />
+        <watch expression="browser.find_element_by_css_selector(&quot;span.hs_kw14_configAI&quot;)" language="Python" />
+        <watch expression="browser.find_element_by_xpath('//*[@id=&quot;tr_16&quot;]/td[1]/div/span[1]')" language="Python" />
       </configuration>
     </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
       <expression>
-        <expression-string>car_config_raw</expression-string>
+        <expression-string>browser.find_element_by_xpath('//*[@id=&quot;tr_16&quot;]/td[1]/div/span[1]')</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>car_model_info_onsale['List']</expression-string>
+        <expression-string>browser.find_element_by_css_selector(&quot;span.hs_kw14_configAI&quot;)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>car_model_list</expression-string>
+        <expression-string>browser.find_element_by_tag_name(&quot;span&quot;).find_element_by_id('hs_kw14_configAI')</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>car_model</expression-string>
+        <expression-string>browser.find_element_by_tag_name(&quot;span&quot;)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>car_model_list_str_raw[index+1:-1]</expression-string>
+        <expression-string>browser.find_element_by_css_selector(&quot;hs_kw14_configAI&quot;)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>car_model_list_str_raw[index:-1]</expression-string>
+        <expression-string>browser.find_element_by_css_selector(&quot;span.hs_kw14_configKs&quot;)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>car_model_list_str_raw.find('(')</expression-string>
+        <expression-string>browser.find_element_by_class_name('hs_kw14_configAI')</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string />
+        <expression-string>browser.find_element_by_id('hs_kw14_configAI')</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>car_series_name</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>car_series</expression-string>
+        <expression-string>.hs_kw14_configAI</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -448,24 +507,10 @@
     <entry file="file://$PROJECT_DIR$/autohome/settings-bak.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/autohome/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/autohome/spiders/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/autohome/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
@@ -497,13 +542,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://D:/Program Files/Python37/Lib/site-packages/scrapy_splash/middleware.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="146" column="6" selection-start-line="146" selection-start-column="6" selection-end-line="146" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autohome/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="99" selection-start-line="99" selection-end-line="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autohome/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/autohome/spiders/autohome_spider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="70" column="64" selection-start-line="70" selection-start-column="64" selection-end-line="70" selection-end-column="64" />
+        <state relative-caret-position="274">
+          <caret line="69" column="21" selection-start-line="69" selection-start-column="21" selection-end-line="69" selection-end-column="21" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files/Python37/Lib/site-packages/selenium/webdriver/remote/errorhandler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="241" selection-start-line="241" selection-end-line="241" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autohome/html_parser_pyquery.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autohome/html_parser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>

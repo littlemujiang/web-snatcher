@@ -1,7 +1,7 @@
 import json
 
 import scrapy
-# import scrapy_splash
+import scrapy_splash
 
 
 class autohome(scrapy.Spider):
@@ -42,7 +42,8 @@ class autohome(scrapy.Spider):
                 for car_series_info in car_series_info_list:
                     car_series_list = car_series_info['List']
                     if(len(car_series_list) > 0 ):
-                        for car_series in car_series_list:
+                        # for car_series in car_series_list:
+                            car_series = car_series_list[0]
                             car_series_id = car_series['I']
                             car_series_name = car_series['N']
                             query_model_url = query_model_base_url + str(car_series_id)
@@ -63,8 +64,8 @@ class autohome(scrapy.Spider):
             car_model = car_model_list[0]
             car_model_id = car_model['I']
             query_config_url = f'https://car.autohome.com.cn/config/spec/{car_model_id}.html'
-            yield scrapy.Request(url=query_config_url, callback=self.parse_info)
-            # yield scrapy_splash.SplashRequest(url=query_config_url,callback=self.parse_mode)
+            # yield scrapy.Request(url=query_config_url, callback=self.parse_info)
+            yield scrapy_splash.SplashRequest(url=query_config_url,callback=self.parse_info)
 
     def parse_info(self, response):
         car_config_raw = response.body
