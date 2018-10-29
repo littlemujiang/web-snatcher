@@ -69,5 +69,5 @@ class autohome(scrapy.Spider):
 
     def parse_info(self, response):
         car_config_raw = response.body
-        car_config_str_raw = str(car_config_raw, encoding='gbk')
-        mingyan_list = response.css('div.quote').extract()
+        car_config_str_raw = str(car_config_raw, encoding='utf-8')
+        mingyan_list_str = response.css('div.conbox').extract()
