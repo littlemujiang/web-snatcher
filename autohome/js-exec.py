@@ -71,3 +71,6 @@ def main(index):
 
 if __name__ == '__main__':
     main(153)
+
+    script = "return window.getComputedStyle(document.getElementsByClassName('" + classname + "')[0], 'before').getPropertyValue('content')"
+    pseudo_element_content = driver.execute_script(script)

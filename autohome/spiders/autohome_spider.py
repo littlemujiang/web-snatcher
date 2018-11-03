@@ -2,32 +2,27 @@ import json
 
 import scrapy
 import scrapy_splash
-
+from html.parser import HTMLParser
+from bs4 import BeautifulSoup
 
 class autohome(scrapy.Spider):
     name = 'autohome'
-
     def start_requests(self):  # 由此方法通过下面链接爬取页面
 
         # 定义爬取的链接
         urls = [
-            # 'http://lab.scrapyd.cn/page/1/',
-            # 'http://lab.scrapyd.cn/page/2/',
             'https://car.autohome.com.cn/javascript/NewSpecCompare.js?20131010'
         ]
         for url in urls:
             yield scrapy.Request(url=url, callback=self.parse)  # 爬取到的页面如何处理？提交给parse方法处理
 
-
     def parse(self, response):
         '''
         start_requests已经爬取到页面，那如何提取我们想要的内容呢？那就可以在这个方法里面定义。
-        这里的话，并木有定义，只是简单的把页面做了一个保存，并没有涉及提取我们想要的数据，后面会慢慢说到
         也就是用xpath、正则、或是css进行相应提取，这个例子就是让你看看scrapy运行的流程：
         1、定义链接；
         2、通过链接爬取（下载）页面；
-        3、定义规则，然后提取数据；
-        就是这么个流程，似不似很简单呀？
+        3、定义规则，然后提取数据
         '''
 
         query_model_base_url = 'https://car.autohome.com.cn/duibi/ashx/specComparehandler.ashx?callback=jQuery112401755185345933663_1540644205221&type=1&seriesid='
@@ -35,7 +30,6 @@ class autohome(scrapy.Spider):
         car_brand_raw = response.body
         car_brand_list_str = str(car_brand_raw, encoding='gbk')[21:-3]
         car_brand_list = json.loads(car_brand_list_str)
-
         for car_brand in car_brand_list:
             car_series_info_list = car_brand['List']
             if(len(car_series_info_list) > 0):
@@ -48,7 +42,7 @@ class autohome(scrapy.Spider):
                             car_series_name = car_series['N']
                             query_model_url = query_model_base_url + str(car_series_id)
                             yield scrapy.Request(url=query_model_url, callback=self.parse_model)
-
+                            return
 
     def parse_model(self, response):
         car_model_raw = response.body
@@ -68,6 +62,26 @@ class autohome(scrapy.Spider):
             yield scrapy_splash.SplashRequest(url=query_config_url,callback=self.parse_info)
 
     def parse_info(self, response):
-        car_config_raw = response.body
-        car_config_str_raw = str(car_config_raw, encoding='utf-8')
-        mingyan_list_str = response.css('div.conbox').extract()
+        # car_config_raw = response.body
+        # car_config_str_raw = str(car_config_raw, encoding='utf-8')
+        car_config_table_list_raw = response.css('div.conbox').extract()
+        car_config_table_list_html = BeautifulSoup(car_config_table_list_raw[0])
+        car_config_table_list = car_config_table_list_html.find_all('table')
+        for car_config_table_tag in car_config_table_list:
+            # 内容为空校验
+            if len(car_config_table_tag) > 0:
+                # 过滤出有id的表格
+                if car_config_table_tag.attrs.__contains__('id'):
+                    car_config_table_id = car_config_table_tag.attrs['id']
+                    car_config_table_id_parts = car_config_table_id.split('_', 1)
+                    # 过滤出id中包含下划线_的表格
+                    if len(car_config_table_id_parts) > 1:
+                        # 过滤出id为 tab_数字 类型的表格
+                        if car_config_table_id_parts[0] == 'tab' and str(car_config_table_id_parts[1]).isdigit():
+                            print(car_config_table_id)
+                            car_config_item_line_list = car_config_table_tag.find_all('tr')
+                            for car_config_item_line in car_config_item_line_list:
+                                car_config_item_line.attrs
+
+                                print('------')
+
