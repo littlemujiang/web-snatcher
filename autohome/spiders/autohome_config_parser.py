@@ -1,17 +1,23 @@
 import json
+import random
+import time
 
 from selenium import webdriver
 from bs4 import BeautifulSoup
+import autohome.spiders.client as client
 
 browser = webdriver.Chrome()
+page_count = 0
 
-def get_config_data_by_id(car_model_id, car_config_data):
+def get_config_data_by_id(car_model_id, car_series_data):
+    global  page_count
     # browser.get("https://car.autohome.com.cn/config/spec/27911.html")
     query_config_url = f'https://car.autohome.com.cn/config/spec/{car_model_id}.html'
     browser.get(query_config_url)
     # 获取网页html
     config_html_raw = browser.find_element_by_xpath("//*").get_attribute("outerHTML")
 
+    car_config_data = car_series_data.copy()
     config_html = BeautifulSoup(config_html_raw)
     car_config_table_list = config_html.find_all('table')
     for car_config_table_tag in car_config_table_list:
@@ -39,8 +45,17 @@ def get_config_data_by_id(car_model_id, car_config_data):
                                         config_item_data[car_config_item_title_text] = car_config_item_content_text
                             car_config_data[config_item_title] = config_item_data
     print('====')
-    print(json.dumps(car_config_data))
+    # print(json.dumps(car_config_data))
+    if len(list(client.car_config_collection.find({"car_model_id": car_config_data['car_model_id']}))) > 0:
+        print(str(car_config_data['car_model_name']) + '已经存在')
+    else:
+        client.car_config_collection.insert_one(car_config_data)
     # browser.close()
+    page_count += 1
+    print("***************")
+    print(page_count)
+    print("***************")
+    time.sleep(random.randint(100, 400)/1000)
 
 
 # 解析一整行的数据
@@ -96,9 +111,12 @@ def exec_translate_script(browser, css_class_name):
 if __name__ == "__main__":
     # browser = webdriver.Chrome()
     # get_config_data_by_id('27911')
+    # client.init_mongodb_conn()
+
     aaa = {}
     aaa['汉字'] = 'dd'
     bbb = {}
     bbb['基本配置'] = aaa
 
+    # client.car_config_collection.insert_one(bbb)
     print(bbb)
