@@ -1,0 +1,9 @@
+{
+    "headers": {
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Language": "en",
+        "Referer": "https://car.autohome.com.cn/duibi/ashx/specComparehandler.ashx?callback=jQuery112401755185345933663_1540644205221&type=1&seriesid=4320",
+        "User-Agent": "Scrapy/1.5.1 (+https://scrapy.org)"
+    },
+    "url": "https://car.autohome.com.cn/config/spec/35301.html"
+}
