@@ -1,10 +1,9 @@
-import json
 import random
 import time
 
 from selenium import webdriver
 from bs4 import BeautifulSoup
-import autohome.spiders.client as client
+import util.client as client
 
 browser = webdriver.Chrome()
 page_count = 0
