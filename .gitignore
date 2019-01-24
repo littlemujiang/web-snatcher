@@ -1,4 +1,5 @@
 _Store
 vevn/*
 .error.log
-autohome/src/pyv8/*
+autohome/src/pyv8/
+.scrapy/*
