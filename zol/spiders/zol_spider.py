@@ -27,13 +27,12 @@ class autohome(scrapy.Spider):
         watch_brand_list_html = BeautifulSoup(watch_brand_list_raw[0], features="html.parser")
         watch_brand_list = watch_brand_list_html.find_all('label')
 
-        for car_brand in watch_brand_list:
+        for watch_brand in watch_brand_list:
             car_series_data = {}
-            car_brand_index = car_brand['L']
-            car_brand_name = car_brand['N']
-            car_series_data['car_brand_index'] = car_brand_index
+            watch_brand_name = watch_brand.attrs["title"]
+            car_brand_name = watch_brand['N']
             car_series_data['car_brand_name'] = car_brand_name
-            car_series_info_list = car_brand['List']
+            car_series_info_list = watch_brand['List']
             if(len(car_series_info_list) > 0):
                 for car_series_info in car_series_info_list:
                     car_series_list = car_series_info['List']
