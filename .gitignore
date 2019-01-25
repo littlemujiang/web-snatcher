@@ -1,6 +1,8 @@
 _Store
-vevn/
 .error
 .log
 autohome/src/pyv8/
 .scrapy/
+/autohome/src/pyv8/
+/vevn/
+.idea/inspectionProfiles/
