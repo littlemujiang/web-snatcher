@@ -2,8 +2,9 @@ import json
 
 import scrapy
 
-import zol.spiders.autohome_config_parser as config_parser
+import zol.spiders.zol_config_parser as config_parser
 import util.client as client
+from bs4 import BeautifulSoup
 
 class autohome(scrapy.Spider):
     name = 'zol'
@@ -14,17 +15,19 @@ class autohome(scrapy.Spider):
 
         # 定义爬取的链接
         urls = [
-            'https://car.autohome.com.cn/javascript/NewSpecCompare.js?20131010'
+            'http://detail.zol.com.cn/GPSwatch_advSearch/subcate827_1.html'
         ]
         for url in urls:
             yield scrapy.Request(url=url, callback=self.parse)  # 爬取到的页面如何处理？提交给parse方法处理
 
     def parse(self, response):
-        query_model_base_url = 'https://car.autohome.com.cn/duibi/ashx/specComparehandler.ashx?callback=jQuery112401755185345933663_1540644205221&type=1&seriesid='
-        car_brand_raw = response.body
-        car_brand_list_str = str(car_brand_raw, encoding='gbk')[21:-3]
-        car_brand_list = json.loads(car_brand_list_str)
-        for car_brand in car_brand_list:
+        query_config_base_url = 'https://car.autohome.com.cn/duibi/ashx/specComparehandler.ashx?callback=jQuery112401755185345933663_1540644205221&type=1&seriesid='
+        homepage = response.body
+        watch_brand_list_raw = response.css('#manuSer').extract()
+        watch_brand_list_html = BeautifulSoup(watch_brand_list_raw[0], features="html.parser")
+        watch_brand_list = watch_brand_list_html.find_all('label')
+
+        for car_brand in watch_brand_list:
             car_series_data = {}
             car_brand_index = car_brand['L']
             car_brand_name = car_brand['N']
@@ -41,7 +44,7 @@ class autohome(scrapy.Spider):
                             # car_series_name = car_series['N']
                             # car_series_data['car_series_id'] = car_series_id
                             # car_series_data['car_series_name'] = car_series_name
-                            query_model_url = query_model_base_url + str(car_series_id)
+                            query_model_url = query_config_base_url + str(car_series_id)
                             yield scrapy.Request(url=query_model_url, callback=self.parse_model,  meta={'car_series_data': car_series_data,'car_series': car_series})
 
 

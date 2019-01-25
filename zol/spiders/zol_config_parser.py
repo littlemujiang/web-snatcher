@@ -1,11 +1,10 @@
 import random
 import time
 
-from selenium import webdriver
 from bs4 import BeautifulSoup
 import util.client as client
 
-browser = webdriver.Chrome()
+
 page_count = 0
 
 def get_config_data_by_id(car_model_id, car_series_data):
