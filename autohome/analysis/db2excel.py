@@ -1,5 +1,6 @@
 import xlwt
 from pymongo import MongoClient
+from xlwt import Pattern
 
 global config_inner_items
 global config_multimedia_items
@@ -28,14 +29,14 @@ def write_doc_2_excel(alphabet):
             sheet_brand = data_csv.add_sheet(config['car_brand_name'], cell_overwrite_ok=True)
             init_sheet_catalog(sheet_brand)
             sheet_map[config['car_brand_name']] = sheet_brand
-            col_index = 3
+            col_index = 2
             sheet_col_index_map[config['car_brand_name']] = col_index
         else:
             sheet_brand = sheet_map.get(config['car_brand_name'])
             col_index = sheet_col_index_map.get(config['car_brand_name'])
 
         write_data_2_sheet(sheet_brand, col_index, config)
-        data_csv.save(r'./A_car.xls')
+        data_csv.save(rf'D:\autohome\car_{alphabet}.xls')
 
 
 def write_data_2_sheet(sheet, col_index, config_data):
@@ -95,6 +96,12 @@ def init_sheet_catalog(sheet):
     # font.italic = True  # 斜体字
     style.font = font  # 设定样式
 
+    pattern = Pattern()  # 创建一个模式
+    pattern.pattern = Pattern.SOLID_PATTERN  # 设置其模式为实型
+    pattern.pattern_fore_colour = 3
+    # 设置单元格背景颜色 0 = Black, 1 = White, 2 = Red, 3 = Green, 4 = Blue, 5 = Yellow, 6 = Magenta,  the list goes on...
+    style.pattern = pattern
+
     row_index = 2
     # config_inner = config_data['内部配置']
     # config_inner_items = list(config_inner.keys())
@@ -117,6 +124,7 @@ def init_sheet_catalog(sheet):
         sheet.write(row_index + index , 1, config_glass_items[index])
     row_index = row_index + len(config_glass_items)
 
+
 def init_sheet_catalog_map(config_data):
     global config_inner_items
     global config_multimedia_items
@@ -130,8 +138,6 @@ def init_sheet_catalog_map(config_data):
 
     config_glass = config_data['玻璃/后视镜']
     config_glass_items = list(config_glass.keys())
-
-
 
 def init_sheet_catalog_dict():
     car_config_data_collection = init_mongodb_conn()
@@ -165,5 +171,10 @@ def init_mongodb_conn():
 
 
 if __name__ == "__main__":
-    write_doc_2_excel('A')
+
+    for index in range(ord('A'), ord('Z')+1):
+        write_doc_2_excel(chr(index))
+        print(chr(index) + 'done')
+
+    # write_doc_2_excel('A')
     # init_sheet_catalog_dict()
