@@ -3,7 +3,7 @@ import json
 import scrapy
 
 import autohome.spiders.autohome_config_parser as config_parser
-import util.client as client
+import autohome.util.client as client
 
 class autohome(scrapy.Spider):
     name = 'autohome'

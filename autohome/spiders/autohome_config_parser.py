@@ -3,7 +3,7 @@ import time
 
 from selenium import webdriver
 from bs4 import BeautifulSoup
-import util.client as client
+import autohome.util.client as client
 
 browser = webdriver.Chrome()
 page_count = 0

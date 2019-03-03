@@ -10,6 +10,7 @@ def init_mongodb_conn():
     zol_db = mongodb_client["zol_data"]
     zol_config_collection = zol_db.watch_config
 
+
 if __name__ == "__main__":
     init_mongodb_conn()
     processor={}
