@@ -1,8 +1,5 @@
 _Store
-.error
-.log
-autohome/src/pyv8/
-.scrapy/
-/autohome/src/pyv8/
-/vevn/
+vevn/*
+.error.log
 .idea/inspectionProfiles/
+autohome/src/pyv8/
