@@ -1,0 +1,598 @@
+1551598573019	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/59/0r8wgn111v7_kpr74jl7g5x80000gn/T/rust_mozprofile.DlXV7sC5BlUI"
+1551598573625	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1551598573626	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+Can't find symbol 'GetGraphicsResetStatus'.
+1551598575495	Marionette	INFO	Listening on port 53017
+1551598575528	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.6.12/index.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.52/ns_b_63_3_n.js, line 3: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.6.12/index.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.52/ns_b_63_3_n.js, line 3: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1551598732159	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/59/0r8wgn111v7_kpr74jl7g5x80000gn/T/rust_mozprofile.hPHwczU8WlE0"
+1551598732686	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1551598732686	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+Can't find symbol 'GetGraphicsResetStatus'.
+1551598734656	Marionette	INFO	Listening on port 53154
+1551598734735	Marionette	WARN	TLS certificate errors will be ignored for this session
+1551598798326	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/59/0r8wgn111v7_kpr74jl7g5x80000gn/T/rust_mozprofile.1oFrtyhXmLLD"
+1551598798892	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1551598798892	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+Can't find symbol 'GetGraphicsResetStatus'.
+1551598800787	Marionette	INFO	Listening on port 53220
+1551598800811	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.6.12/index.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.52/ns_b_63_3_n.js, line 3: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.6.12/index.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.52/ns_b_63_3_n.js, line 3: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+1551598817750	Marionette	INFO	Stopped listening on port 53154
+Exiting due to channel error.
+Exiting due to channel error.
+1551599046241	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/59/0r8wgn111v7_kpr74jl7g5x80000gn/T/rust_mozprofile.AWFGw24qefm2"
+1551599047057	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1551599047057	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+Can't find symbol 'GetGraphicsResetStatus'.
+1551599049584	Marionette	INFO	Listening on port 53455
+1551599049612	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.6.12/index.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.52/ns_b_63_3_n.js, line 3: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.6.12/index.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.52/ns_b_63_3_n.js, line 3: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 25230, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 718
+Exiting due to channel error.
+Exiting due to channel error.
+1551600367481	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/59/0r8wgn111v7_kpr74jl7g5x80000gn/T/rust_mozprofile.lf6HY45fYXy8"
+1551600368043	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1551600368043	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+Can't find symbol 'GetGraphicsResetStatus'.
+1551600370021	Marionette	INFO	Listening on port 54338
+1551600370054	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.6.12/index.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.52/ns_b_63_3_n.js, line 3: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.6.12/index.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.52/ns_b_63_3_n.js, line 3: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript error: https://login.taobao.com/jump?target=https://www.tmall.com, line 27: SyntaxError: expected expression, got '<'
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.6.12/index.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.52/ns_b_63_3_n.js, line 3: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.6.12/index.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.52/ns_b_63_3_n.js, line 3: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x240016,name=PCameras::Msg_AllDone) Channel error: cannot send/recv
+
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1551600886305	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/59/0r8wgn111v7_kpr74jl7g5x80000gn/T/rust_mozprofile.YSM7EgqPtjam"
+1551600886989	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1551600886989	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+Can't find symbol 'GetGraphicsResetStatus'.
+1551600889353	Marionette	INFO	Listening on port 54634
+1551600889399	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.6.12/index.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.52/ns_b_63_3_n.js, line 3: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.6.12/index.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.52/ns_b_63_3_n.js, line 3: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript error: https://login.taobao.com/jump?target=https://www.tmall.com, line 27: SyntaxError: expected expression, got '<'
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.6.12/index.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.52/ns_b_63_3_n.js, line 3: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.6.12/index.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.52/ns_b_63_3_n.js, line 3: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x240016,name=PCameras::Msg_AllDone) Channel error: cannot send/recv
+
+Exiting due to channel error.
+Exiting due to channel error.
+1551601773698	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/59/0r8wgn111v7_kpr74jl7g5x80000gn/T/rust_mozprofile.rFWfPrXrQIpD"
+1551601774272	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1551601774272	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+Can't find symbol 'GetGraphicsResetStatus'.
+1551601776030	Marionette	INFO	Listening on port 54966
+1551601776072	Marionette	WARN	TLS certificate errors will be ignored for this session
+1551601786514	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/59/0r8wgn111v7_kpr74jl7g5x80000gn/T/rust_mozprofile.wgGAxuoomMIN"
+1551601787024	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1551601787025	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+Can't find symbol 'GetGraphicsResetStatus'.
+1551601788851	Marionette	INFO	Listening on port 55022
+1551601788885	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.6.12/index.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.52/ns_b_63_3_n.js, line 3: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.6.12/index.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.52/ns_b_63_3_n.js, line 3: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript error: https://login.taobao.com/jump?target=https://www.tmall.com, line 27: SyntaxError: expected expression, got '<'
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.6.12/index.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.52/ns_b_63_3_n.js, line 3: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.6.12/index.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.52/ns_b_63_3_n.js, line 3: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x240016,name=PCameras::Msg_AllDone) Channel error: cannot send/recv
+
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 25748, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 718
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1551603332198	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/59/0r8wgn111v7_kpr74jl7g5x80000gn/T/rust_mozprofile.9s57ymf3yIoU"
+1551603332920	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1551603332920	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+Can't find symbol 'GetGraphicsResetStatus'.
+1551603335304	Marionette	INFO	Listening on port 55637
+1551603335399	Marionette	WARN	TLS certificate errors will be ignored for this session
+1551603361012	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/59/0r8wgn111v7_kpr74jl7g5x80000gn/T/rust_mozprofile.P7vuiGEfPLff"
+1551603361628	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1551603361628	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+Can't find symbol 'GetGraphicsResetStatus'.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1551603368882	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/59/0r8wgn111v7_kpr74jl7g5x80000gn/T/rust_mozprofile.KvwORY9VnLyp"
+1551603369709	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1551603369709	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+Can't find symbol 'GetGraphicsResetStatus'.
+1551603372165	Marionette	INFO	Listening on port 55738
+1551603372186	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.6.12/index.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.52/ns_b_63_3_n.js, line 3: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.6.12/index.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.52/ns_b_63_3_n.js, line 3: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript error: https://login.taobao.com/jump?target=https://www.tmall.com, line 27: SyntaxError: expected expression, got '<'
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.6.12/index.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.52/ns_b_63_3_n.js, line 3: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.6.12/index.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.52/ns_b_63_3_n.js, line 3: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x240016,name=PCameras::Msg_AllDone) Channel error: cannot send/recv
+
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+Can't find symbol 'GetGraphicsResetStatus'.
+Can't find symbol 'GetGraphicsResetStatus'.
+1551622756674	Marionette	INFO	Stopped listening on port 54966
+1551622758485	Marionette	INFO	Stopped listening on port 55637
+1551623575367	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/59/0r8wgn111v7_kpr74jl7g5x80000gn/T/rust_mozprofile.lUxSSfZBW8zP"
+1551623575896	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1551623575896	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+Can't find symbol 'GetGraphicsResetStatus'.
+1551623577842	Marionette	INFO	Listening on port 59769
+1551623577934	Marionette	WARN	TLS certificate errors will be ignored for this session
+1551623579039	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/59/0r8wgn111v7_kpr74jl7g5x80000gn/T/rust_mozprofile.VIq5epaIrjL3"
+1551623579524	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1551623579524	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+Can't find symbol 'GetGraphicsResetStatus'.
+1551623581261	Marionette	INFO	Listening on port 59808
+1551623581336	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.6.12/index.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.52/ns_b_63_3_n.js, line 3: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.6.12/index.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.52/ns_b_63_3_n.js, line 3: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript error: https://login.taobao.com/jump?target=https://www.tmall.com, line 27: SyntaxError: expected expression, got '<'
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.6.12/index.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.52/ns_b_63_3_n.js, line 3: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.6.12/index.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.52/ns_b_63_3_n.js, line 3: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+1551623729383	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/59/0r8wgn111v7_kpr74jl7g5x80000gn/T/rust_mozprofile.dTG3ITCJkZZ3"
+1551623729863	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1551623729863	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+Can't find symbol 'GetGraphicsResetStatus'.
+1551623731754	Marionette	INFO	Listening on port 59984
+1551623731862	Marionette	WARN	TLS certificate errors will be ignored for this session
+1551623732962	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/59/0r8wgn111v7_kpr74jl7g5x80000gn/T/rust_mozprofile.5cSzdbLBcxPE"
+1551623733499	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1551623733499	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+Can't find symbol 'GetGraphicsResetStatus'.
+1551623735218	Marionette	INFO	Listening on port 60024
+1551623735230	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.6.12/index.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.52/ns_b_63_3_n.js, line 3: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.6.12/index.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.52/ns_b_63_3_n.js, line 3: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript error: https://login.taobao.com/jump?target=https://www.tmall.com, line 27: SyntaxError: expected expression, got '<'
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.6.12/index.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.52/ns_b_63_3_n.js, line 3: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.6.12/index.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.52/ns_b_63_3_n.js, line 3: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+Exiting due to channel error.
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x240016,name=PCameras::Msg_AllDone) Channel error: cannot send/recv
+
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1551624616232	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/59/0r8wgn111v7_kpr74jl7g5x80000gn/T/rust_mozprofile.A8Zu0k0JB2hf"
+1551624617023	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1551624617024	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+Can't find symbol 'GetGraphicsResetStatus'.
+1551624620308	Marionette	INFO	Listening on port 60642
+1551624620350	Marionette	WARN	TLS certificate errors will be ignored for this session
+1551624621502	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/59/0r8wgn111v7_kpr74jl7g5x80000gn/T/rust_mozprofile.JaL4mIP9lYGY"
+1551624622188	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1551624622188	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+Can't find symbol 'GetGraphicsResetStatus'.
+1551624624690	Marionette	INFO	Listening on port 60704
+1551624624796	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.6.12/index.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.52/ns_b_63_3_n.js, line 3: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.6.12/index.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.52/ns_b_63_3_n.js, line 3: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript error: https://login.taobao.com/jump?target=https://www.tmall.com, line 27: SyntaxError: expected expression, got '<'
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.6.12/index.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.52/ns_b_63_3_n.js, line 3: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.6.12/index.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.52/ns_b_63_3_n.js, line 3: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.6.12/index.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.52/ns_b_63_3_n.js, line 3: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.6.12/index.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.52/ns_b_63_3_n.js, line 3: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.6.12/index.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.52/ns_b_63_3_n.js, line 3: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x240016,name=PCameras::Msg_AllDone) Channel error: cannot send/recv
+
+Exiting due to channel error.
+Exiting due to channel error.
+1551625435543	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/59/0r8wgn111v7_kpr74jl7g5x80000gn/T/rust_mozprofile.SrlWS4XtO6d7"
+1551625436071	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1551625436071	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+Can't find symbol 'GetGraphicsResetStatus'.
+1551625437836	Marionette	INFO	Listening on port 61846
+1551625437907	Marionette	WARN	TLS certificate errors will be ignored for this session
+1551625439088	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/59/0r8wgn111v7_kpr74jl7g5x80000gn/T/rust_mozprofile.9t397dJYAmy7"
+1551625439638	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1551625439638	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+Can't find symbol 'GetGraphicsResetStatus'.
+1551625441745	Marionette	INFO	Listening on port 61897
+1551625441770	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.6.12/index.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.52/ns_b_63_3_n.js, line 3: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.6.12/index.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.52/ns_b_63_3_n.js, line 3: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript error: https://login.taobao.com/jump?target=https://www.tmall.com, line 27: SyntaxError: expected expression, got '<'
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.6.12/index.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.52/ns_b_63_3_n.js, line 3: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.6.12/index.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.52/ns_b_63_3_n.js, line 3: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.6.12/index.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.52/ns_b_63_3_n.js, line 3: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+1551625592131	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/59/0r8wgn111v7_kpr74jl7g5x80000gn/T/rust_mozprofile.yx2fLXDY5TME"
+1551625592689	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1551625592690	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+Can't find symbol 'GetGraphicsResetStatus'.
+1551625594682	Marionette	INFO	Listening on port 62693
+1551625594709	Marionette	WARN	TLS certificate errors will be ignored for this session
+1551625595841	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/59/0r8wgn111v7_kpr74jl7g5x80000gn/T/rust_mozprofile.oXxzOwCFrWGx"
+1551625596533	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1551625596533	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+Can't find symbol 'GetGraphicsResetStatus'.
+1551625598366	Marionette	INFO	Listening on port 62748
+1551625598420	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.6.12/index.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.52/ns_b_63_3_n.js, line 3: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.6.12/index.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.52/ns_b_63_3_n.js, line 3: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript error: https://login.taobao.com/jump?target=https://www.tmall.com, line 27: SyntaxError: expected expression, got '<'
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.6.12/index.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.52/ns_b_63_3_n.js, line 3: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.6.12/index.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.52/ns_b_63_3_n.js, line 3: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.6.12/index.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.52/ns_b_63_3_n.js, line 3: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x240016,name=PCameras::Msg_AllDone) Channel error: cannot send/recv
+
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1551626400656	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/59/0r8wgn111v7_kpr74jl7g5x80000gn/T/rust_mozprofile.IaOjwO5D6TCF"
+1551626401283	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1551626401284	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+Can't find symbol 'GetGraphicsResetStatus'.
+1551626403972	Marionette	INFO	Listening on port 50010
+1551626404075	Marionette	WARN	TLS certificate errors will be ignored for this session
+1551626405239	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/59/0r8wgn111v7_kpr74jl7g5x80000gn/T/rust_mozprofile.hy7MtmAs33fC"
+1551626406005	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1551626406006	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+Can't find symbol 'GetGraphicsResetStatus'.
+1551626408756	Marionette	INFO	Listening on port 50084
+1551626408830	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.6.12/index.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.52/ns_b_63_3_n.js, line 3: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.6.12/index.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.52/ns_b_63_3_n.js, line 3: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript error: https://login.taobao.com/jump?target=https://www.tmall.com, line 27: SyntaxError: expected expression, got '<'
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.6.12/index.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.52/ns_b_63_3_n.js, line 3: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.6.12/index.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.52/ns_b_63_3_n.js, line 3: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.6.12/index.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.52/ns_b_63_3_n.js, line 3: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.6.12/index.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.52/ns_b_63_3_n.js, line 3: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+1551626936276	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/59/0r8wgn111v7_kpr74jl7g5x80000gn/T/rust_mozprofile.51AwrHDmaqHi"
+1551626936991	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1551626936991	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+Can't find symbol 'GetGraphicsResetStatus'.
+1551626938987	Marionette	INFO	Listening on port 52556
+1551626939062	Marionette	WARN	TLS certificate errors will be ignored for this session
+1551626940176	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/59/0r8wgn111v7_kpr74jl7g5x80000gn/T/rust_mozprofile.P5bai6uqMnny"
+1551626940744	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1551626940745	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+Can't find symbol 'GetGraphicsResetStatus'.
+1551626942587	Marionette	INFO	Listening on port 52625
+1551626942667	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.6.12/index.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.52/ns_b_63_3_n.js, line 3: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.6.12/index.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.52/ns_b_63_3_n.js, line 3: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript error: https://login.taobao.com/jump?target=https://www.tmall.com, line 27: SyntaxError: expected expression, got '<'
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.6.12/index.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.52/ns_b_63_3_n.js, line 3: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.6.12/index.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.52/ns_b_63_3_n.js, line 3: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.6.12/index.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.52/ns_b_63_3_n.js, line 3: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.6.12/index.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.52/ns_b_63_3_n.js, line 3: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.6.12/index.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.52/ns_b_63_3_n.js, line 3: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.6.12/index.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.52/ns_b_63_3_n.js, line 3: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.6.12/index.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.52/ns_b_63_3_n.js, line 3: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+1551627256542	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/59/0r8wgn111v7_kpr74jl7g5x80000gn/T/rust_mozprofile.PMpFtIFeBRjs"
+1551627257160	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1551627257161	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+Can't find symbol 'GetGraphicsResetStatus'.
+1551627259042	Marionette	INFO	Stopped listening on port 59808
+1551627259148	Marionette	INFO	Listening on port 54143
+1551627259213	Marionette	WARN	TLS certificate errors will be ignored for this session
+1551627260337	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/59/0r8wgn111v7_kpr74jl7g5x80000gn/T/rust_mozprofile.VPUdq8hpZNgW"
+1551627260856	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1551627260856	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+Can't find symbol 'GetGraphicsResetStatus'.
+1551627263626	Marionette	INFO	Listening on port 54199
+1551627263647	Marionette	WARN	TLS certificate errors will be ignored for this session
+1551627264276	Marionette	INFO	Stopped listening on port 59769
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.6.12/index.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.52/ns_b_63_3_n.js, line 3: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+1551627273471	Marionette	INFO	Stopped listening on port 50010
+1551627275972	Marionette	INFO	Stopped listening on port 62693
+1551627278253	Marionette	INFO	Stopped listening on port 61897
+1551627279405	Marionette	INFO	Stopped listening on port 50084
+1551627281980	Marionette	INFO	Stopped listening on port 61846
+Can't find symbol 'GetGraphicsResetStatus'.
+1551627285140	Marionette	INFO	Stopped listening on port 52556
+1551627286428	Marionette	INFO	Stopped listening on port 52625
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1B0011,name=PBackgroundStorage::Msg_Observe) Channel error: cannot send/recv
+
+1551627289240	Marionette	INFO	Stopped listening on port 60642
+1551627290784	Marionette	INFO	Stopped listening on port 54143
+1551627292142	Marionette	INFO	Stopped listening on port 54199
+1551627316829	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/59/0r8wgn111v7_kpr74jl7g5x80000gn/T/rust_mozprofile.eXtaKjPwtBlS"
+1551627318060	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1551627318061	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+Can't find symbol 'GetGraphicsResetStatus'.
+1551627320704	Marionette	INFO	Listening on port 54533
+1551627320726	Marionette	WARN	TLS certificate errors will be ignored for this session
+1551627321900	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/59/0r8wgn111v7_kpr74jl7g5x80000gn/T/rust_mozprofile.p7s4BHdVvFGN"
+1551627322735	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1551627322735	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+Can't find symbol 'GetGraphicsResetStatus'.
+1551627325262	Marionette	INFO	Listening on port 54609
+1551627325316	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.6.12/index.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.52/ns_b_63_3_n.js, line 3: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.6.12/index.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.52/ns_b_63_3_n.js, line 3: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.6.12/index.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.52/ns_b_63_3_n.js, line 3: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+1551627353032	Marionette	INFO	Stopped listening on port 54609
+1551627357456	Marionette	INFO	Stopped listening on port 54533
+1551627376429	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/59/0r8wgn111v7_kpr74jl7g5x80000gn/T/rust_mozprofile.fY0fSjRaXYpW"
+1551627377528	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1551627377528	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+Can't find symbol 'GetGraphicsResetStatus'.
+1551627380743	Marionette	INFO	Listening on port 55004
+1551627380852	Marionette	WARN	TLS certificate errors will be ignored for this session
+1551627382001	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/59/0r8wgn111v7_kpr74jl7g5x80000gn/T/rust_mozprofile.aasF2ynflPj0"
+1551627382708	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1551627382708	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+Can't find symbol 'GetGraphicsResetStatus'.
+1551627385197	Marionette	INFO	Listening on port 55089
+1551627385277	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.6.12/index.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.52/ns_b_63_3_n.js, line 3: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.6.12/index.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.52/ns_b_63_3_n.js, line 3: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript error: https://login.taobao.com/jump?target=https://www.tmall.com, line 27: SyntaxError: expected expression, got '<'
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.6.12/index.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.52/ns_b_63_3_n.js, line 3: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+1551627455493	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/59/0r8wgn111v7_kpr74jl7g5x80000gn/T/rust_mozprofile.EwAFvEaZ5LKw"
+1551627455991	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1551627455992	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+Can't find symbol 'GetGraphicsResetStatus'.
+1551627457931	Marionette	INFO	Listening on port 55534
+1551627457982	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.6.12/index.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.52/ns_b_63_3_n.js, line 3: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.6.12/index.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.52/ns_b_63_3_n.js, line 3: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.6.12/index.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.52/ns_b_63_3_n.js, line 3: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+1551627477093	Marionette	INFO	Stopped listening on port 55089
+1551627479934	Marionette	INFO	Stopped listening on port 55534
+1551627481263	Marionette	INFO	Stopped listening on port 55004
+1551627493714	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/59/0r8wgn111v7_kpr74jl7g5x80000gn/T/rust_mozprofile.9Juzu4vgmEJk"
+1551627494650	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1551627494650	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+Can't find symbol 'GetGraphicsResetStatus'.
+1551627497537	Marionette	INFO	Listening on port 55792
+1551627497602	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.6.12/index.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.52/ns_b_63_3_n.js, line 3: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.6.12/index.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.52/ns_b_63_3_n.js, line 3: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+1551627512693	Marionette	INFO	Stopped listening on port 55792
