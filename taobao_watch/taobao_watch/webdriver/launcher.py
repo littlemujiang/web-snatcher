@@ -6,6 +6,8 @@ from time import sleep
 
 from bs4 import BeautifulSoup
 from selenium import webdriver
+from selenium.webdriver.support.wait import WebDriverWait
+
 import taobao_watch.taobao_watch.util.client as client
 
 browser = None
@@ -63,6 +65,8 @@ def parseModel():
         # 内容为空校验
         if len(model_tag) > 0:
             model_name = model_tag['title']
+            if model_name in ['WeLoop']:
+                continue
             model_path = model_tag['trace-click']
             model_paths = model_path.split(';')
             if len(model_paths) != 2:
@@ -135,6 +139,7 @@ def parseData(model_name, ppath_value, cursor):
 
     if next_page_cursor:
         parseData(model_name, ppath_value, int(next_page_cursor))
+        sleep(random.randint(1, 5))
 
 
 
